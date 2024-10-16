@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dbd introduction</title>
+    
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- カスタムCSSを読み込む -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ゲームアイコン表示サイトのリンクを追加 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+
+
+  <body>
+    <!-- ボタン機能の設定 -->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        menu
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html">ホーム</a></li>
+        <li><a class="dropdown-item" href="dbd outline.html">ゲーム概要</a></li>
+        <li><a class="dropdown-item" href="#">おすすめ構成</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+       <img src="https://pbs.twimg.com/media/E3zKOuDXIAI1bgJ.jpg:large" class="img-fluid" alt="トップ画像">
+    </div>
+
+    <!-- グリッドシステム -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- コンテンツ1 -->
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- コンテンツ2 -->
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <!-- コンテンツ3 -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="centered-text">
+    <h2>DEAD BY DAYLIGHTとは？</h2>
+    <p>獲物を襲い全滅を狙うキラー（殺人鬼）と、４人で団結して殺人鬼からの脱出を図るサバイバー（生存者）が繰り広げるホラーアクションゲーム。</p>
+    <div class="image video">
+    <video width="200" height="200" controls loop>
+      <source src="C:\Users\hinat\Documents\VScode\DBDhtml bootstrap\dbdvideo.mp4.mp4" >
+      <!-- <source src="dbdvideo.mp4" type="video/mp4"> -->
+      お使いのブラウザは動画タグに対応していません。
+    </video>
+    </div>
+    <h3>多くのホラー作品とのコラボ！？</h3>
+    <p>DBDオリジナルのキャラクターに加えて、「リング」や「バイオハザード」など数々の作品とコラボし、交わる唯一のゲーム！</p>
+    </div>
+
+    <!-- カルーセルの実装 -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://3goo.co.jp/wp-content/uploads/2022/07/SadakoRising_Edition_KeyArt_1920x1080_Logo-scaled.jpg" class="d-block w-100" alt="サンプル画像">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.famitsu.com/images/000/223/918/y_60c9644163f2f.jpg" class="d-block w-100" alt="サンプル">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.famitsu.com/images/000/312/594/z_64d1f6052c8b2.jpg" class="d-block w-100" alt="サンプル">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.famitsu.com/images/000/325/699/y_65659c49e1f27.jpg" class="d-block w-100" alt="サンプル">
+        </div>
+        <div class="carousel-item">
+          <img src="https://newsatcl-pctr.c.yimg.jp/t/amd-img/20240806-01193533-denfami-000-4-view.jpg?exp=10800" class="d-block w-100" alt="サンプル">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="centered-text">
+    <h3>対応プラットフォーム</h3>
+    </div>
+
+    <div class="platform-icons">
+      <div class="platform">
+        <i class="fab fa-playstation"></i>
+        <span>PS5</span> <!-- テキスト追加 -->
+      </div>
+      <div class="platform">
+        <i class="fab fa-xbox"></i>
+        <span>Xbox</span> <!-- テキスト追加 -->
+      </div>
+      <div class="platform">
+        <i class="fa-brands fa-steam"></i>
+        <span>Steam</span> <!-- テキスト追加 -->
+      </div>
+    </div>
+    
+  </body>
+</html>

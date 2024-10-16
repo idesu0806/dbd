@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black; 
+  color: white;  /* テキストの色を白に設定 */
+  margin-top:50px;
+  margin: 40px
+}
+
+/* ボタンを左上に配置 */
+.dropdown {
+  position: absolute;
+  top: 10px; /* 上から10pxの位置 */
+  right: 10px; /* 左から10pxの位置 */
+}
+/* ドロップダウンメニューの背景色をボタンと同じグレーにし、テキストを白にする */
+.dropdown-menu {
+  background-color: #5a6268; /* グレーの背景色 */
+}
+/* 各メニュー項目のテキスト色を白にする */
+.dropdown-item {
+  color: white;
+}
+/* メニュー項目のホバー時に色を変えたい場合 */
+.dropdown-item:hover {
+  background-color: #990000; 
+  color: white;
+}
+
+
+/* カルーセルの幅と高さを調整 */
+#carouselExampleAutoplaying {
+  width: 60%; /* 全体幅の80% */
+  max-width: 500px;
+  height: 500px; /* 高さを500pxに固定 */
+  margin: 0 auto; /* 中央に配置 */
+}
+
+/* 画像の高さを調整し、オーバーフローする部分を隠す */
+.carousel-item img {
+  height: 100%;
+  object-fit: cover; /* 画像を自動でトリミングしてフィットさせる */
+}
+
+
+/* テキストを中央寄せしつつ左揃え */
+.centered-text {
+  width: 80%;
+  max-width: 700px; /* テキストコンテナの最大幅を指定 */
+  margin: 40px auto; /* コンテナ全体を中央に配置 */
+  text-align: left; /* テキストを左揃え */
+  padding: 20px; /* コンテンツに余白を追加 */
+}
+@media (max-width: 576px) {
+  .centered-text {
+    max-width: 100%; /* スマホでは幅を全体に */
+    padding: 10px; /* 余白を少なくする */
+    margin: 20px auto;
+  }
+}
+
+.container{
+  width: 90%;
+  max-width: 700px;
+}
+
+.image video {
+  width: 60%;
+  max-width: 400px;
+  height: auto; /* 高さを自動調整 */
+  display: block; /* ブロック要素として表示（余計な余白を防ぐ） */
+  margin: 0 auto; /* 中央に配置 */
+}
+@media (max-width: 576px) {
+  .image video {
+    width: 100%;
+    max-width: none; /* スマホでは制限を解除 */
+  }
+}
+
+.platform-icons {
+  display: flex;
+  gap: 20px; /* アイコンとテキスト間のスペース */
+}
+
+.platform {
+  display: flex;
+  gap: 10px; /* アイコンとテキストの間のスペース */
+}
+
+.platform i {
+  font-size: 40px;
+  color: white;
+}
+
+.platform span {
+  font-size: 20px;
+  color: white;
+}
+
